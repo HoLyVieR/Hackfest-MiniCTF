@@ -1,0 +1,213 @@
+{
+	"challenges" : [
+		{ 
+			"name" : "Injection SQL 1", 
+			"category" : "Niveau de base", 
+			"message" : "Vous devez contourner l'identification de la page de connexion en exploitant une injection SQL. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/419b956c459e81c3edd8324e70e0b58a/", 
+			"value" : 50, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-734140d06c8ef36608214e70ca446f03", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Authentification 1", 
+			"category" : "Niveau de base", 
+			"message" : "Vous devez faire croire au système que vous êtes administrateur. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/82c2c0347976d84ad6218ebea0b4ed2e/", 
+			"value" : 50, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-6120a707ef376fa19d2c09002cca81d5", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Authentification 2", 
+			"category" : "Niveau de base", 
+			"message" : "Vous devez faire croire au système que vous êtes administrateur. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/182f2481ce15c2e8300f5436d3c30442/", 
+			"value" : 50, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-08ee16ae88bcd95e4991492b2953b23a", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Authentification 3", 
+			"category" : "Niveau de base", 
+			"message" : "Vous devez faire croire au système que vous êtes administrateur. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/71659e91c43536fe7cf91d793e53ccff/", 
+			"value" : 50, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-315ff9d8c0bdee2613dd8fe74a103198", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "XSS 1", 
+			"category" : "XSS", 
+			"message" : "Subtiliser le FLAG qui est seulement visible par l'administrateur. <br><br>http://ctfd.ettic.ca/c3889410eadee511c8ef77978a42fe8e/", 
+			"value" : 200, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-0cddd2761461c0c0209ee4f48217943b", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "CSRF 1", 
+			"category" : "CSRF", 
+			"message" : "Faites approuver votre demande par un administrateur pour voir le FLAG. <br><br>http://ctfd.ettic.ca/bba350aaffdba0d4d98602a76308d42c/", 
+			"value" : 100, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-2ef85feef76e92b2c5ffa8f582f1e8cd", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "CSRF 2", 
+			"category" : "CSRF", 
+			"message" : "Faites approuver votre demande par un administrateur pour voir le FLAG. Soyez créatif pour contourner la protection du jeton CSRF ! <br><br>http://ctfd.ettic.ca/83e910e5190d2d7321bfe8c5a7091158/", 
+			"value" : 300, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-29e5b7d498e904b39d032bf1a04a346a", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Encodage 1", 
+			"category" : "Cryptographie et encodage", 
+			"message" : "Vous devez faire croire au système que vous êtes administrateur. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/213d3addba0bd0751f7996fa809157f7/", 
+			"value" : 50, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-df6c4a7ab674cae5bdec87565108595f", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Cryptographie 1", 
+			"category" : "Cryptographie et encodage", 
+			"message" : "Vous devez faire croire au système que vous êtes administrateur. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/faca531188724d68e4bd8e12dd3a46d3/", 
+			"value" : 100, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-635e6aa10c6ae190f3e5484c6cf2e47b", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Cryptographie 2", 
+			"category" : "Cryptographie et encodage", 
+			"message" : "Vous devez effectuer l'action 'getflag'. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/da40dbad1bbd565c4a20b29098c17c34/", 
+			"value" : 200, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-1552f7508988358712f0f7fcf1b6ab28", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Cryptographie 3", 
+			"category" : "Cryptographie et encodage", 
+			"message" : "Vous devez trouver la valeur flag qui est encryptée dans l'URL. <br><br>http://ctfd.ettic.ca/43f7d7f7aa450605f1898331ab5b0388/", 
+			"value" : 400, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-f2a94c97e7c65a0654d36e7ff5ced0a4", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Injection SQL 2", 
+			"category" : "Injection SQL", 
+			"message" : "Vous devez contourner l'identification de la page de connexion en exploitant une injection SQL. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/1e0ee6e989fa6b7f70776f624ab75414/", 
+			"value" : 100, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-8c3ca2c2d9c411de5f4240fd08f3bab0", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{ 
+			"name" : "Injection SQL 3", 
+			"category" : "Injection SQL", 
+			"message" : "Vous devez exploiter l'injection SQL et trouver le flag qui se trouve quelque part dans la base de données SQLite. <br><br>http://ctfd.ettic.ca/46686333728e669885020ab007d3cf55/", 
+			"value" : 400, 
+			"key" : [
+				{ 
+					"flag" : "FLAG-d16a765214493dca7a2ce74a1618f9ab", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{
+			"name" : "Captcha Impossible ?",
+			"category" : "Autres",
+			"message" : "Ce captcha peut sembler impossible à première vue, mais un problème dans son implémentation permet de le contourner. <br /><br />http://ctfd.ettic.ca/ce3c1b08b3868c8905c2fee9277380b2/",
+			"value" : 200,
+			"key" : [
+				{ 
+					"flag" : "FLAG-f446f6db90d372ae9f5a1db6bed68ab3", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{
+			"name" : "Formulaire 1",
+			"category" : "Niveau de base",
+			"message" : "Il suffit de cliquer sur le bouton pour obtenir le flag.<br /><br />http://ctfd.ettic.ca/f47da695361e9879c84154ee9683cb92/",
+			"value" : 50,
+			"key" : [
+				{ 
+					"flag" : "FLAG-591cf3ae571da68077db6edf6ae6aad7", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		},
+		{
+			"name" : "Authentification 4",
+			"category" : "Niveau de base",
+			"message" : "Vous devez faire croire au système que vous êtes administrateur. Lorsque vous aurez réussit, un 'FLAG' apparaîtra. <br><br>http://ctfd.ettic.ca/3c9dc428b6ebaae03def70d9a4310c9d/",
+			"value" : 50,
+			"key" : [
+				{ 
+					"flag" : "FLAG-da7370a4ce44ba70f6cbb885727537dd", 
+					"type" : 0 
+				}
+			],
+			"files" : []
+		}
+	]
+}
+
