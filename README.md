@@ -6,7 +6,8 @@ This repository contains the setup script and the challenge of the OWASP Mini-CT
 
 ### Base 
 
-```# This should install most the package required
+```
+# This should install most the package required
 cd deploy
 sh package.sh
 
