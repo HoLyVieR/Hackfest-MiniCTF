@@ -1,6 +1,6 @@
 # Hackfest Mini-CTF 2016
 
-This repository contains the setup script and the challenge of the OWASP Mini-CTF 2016 (Hackfest).
+This repository contains the setup script and the challenges of the OWASP Mini-CTF 2016 presented at Hackfest.
 
 ## Setup 
 
